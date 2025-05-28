@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
 
     private int enemyCount;
     private bool gameOver = false;
+    public GameObject gameOverUI;
+    public GameObject winUI;
 
     void Awake()
     {
@@ -14,6 +16,19 @@ public class GameManager : MonoBehaviour
             Instance = this;
         else
             Destroy(gameObject);
+    }
+
+    void Update()
+    {
+        if(gameOverUI.activeInHierarchy || winUI.activeInHierarchy)
+        {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+        }
+        else{
+            Cursor.visible = false;
+             Cursor.lockState = CursorLockMode.Locked;
+        }
     }
 
     public void RegisterEnemy()
@@ -36,7 +51,8 @@ public class GameManager : MonoBehaviour
         if (!gameOver)
         {
             gameOver = true;
-            Debug.Log("You Lose!");
+            gameOverUI.SetActive(true);
+            Time.timeScale = 0f;
         }
     }
 
@@ -45,7 +61,15 @@ public class GameManager : MonoBehaviour
         if (!gameOver)
         {
             gameOver = true;
-            Debug.Log("You Win!");
+            winUI.SetActive(true);
+            Time.timeScale = 0f;
         }
     }
+    public void restart()
+    {
+        Time.timeScale = 1f;
+        gameOver = false;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
 }

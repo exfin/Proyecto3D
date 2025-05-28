@@ -25,6 +25,7 @@ public class Player_Health : MonoBehaviour
 
         if (health <= 0)
         {
+            gameObject.SetActive(false);
             GameManager.Instance.PlayerDied();
         }
     }
