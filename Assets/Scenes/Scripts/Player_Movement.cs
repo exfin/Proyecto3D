@@ -3,7 +3,7 @@ using UnityEngine;
 public class Player_Movement : MonoBehaviour
 {
     public float moveSpeed = 5f;      
-    public float rotationSpeed = 100f; 
+    public float rotationSpeed = 70f; 
 
     
     void Update()
