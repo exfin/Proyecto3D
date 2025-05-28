@@ -7,6 +7,7 @@ public class Enemy_Health : MonoBehaviour
 
     void Start()
     {
+        GameManager.Instance.RegisterEnemy();
         currentHealth = maxHealth;
     }
 
@@ -16,6 +17,7 @@ public class Enemy_Health : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+            GameManager.Instance.UnregisterEnemy();
              Destroy(gameObject);
         }
     }

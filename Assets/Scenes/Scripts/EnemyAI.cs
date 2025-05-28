@@ -29,7 +29,6 @@ public class EnemyAI : MonoBehaviour
     {
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
-        // Cambiar de estado según la distancia al jugador
         if (distanceToPlayer <= attackRange)
             currentState = State.Attack;
         else if (distanceToPlayer <= detectionRange)
@@ -37,7 +36,6 @@ public class EnemyAI : MonoBehaviour
         else
             currentState = State.Patrol;
 
-        // Ejecutar comportamiento según el estado
         switch (currentState)
         {
             case State.Patrol:
@@ -68,12 +66,10 @@ public class EnemyAI : MonoBehaviour
 
     void AttackPlayer()
     {
-        // Mirar hacia el jugador
         Vector3 direction = (player.position - transform.position).normalized;
         Quaternion lookRotation = Quaternion.LookRotation(direction);
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5f);
 
-        // Disparar si es tiempo
         if (Time.time >= nextFireTime)
         {
             Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
@@ -85,11 +81,9 @@ public class EnemyAI : MonoBehaviour
         {
             Vector3 direction = (target - transform.position).normalized;
 
-            // Movimiento horizontal (X y Z)
             Vector3 horizontalMove = new Vector3(direction.x, 0, direction.z);
             transform.position += horizontalMove * speed * Time.deltaTime;
 
-            // Mirar al objetivo horizontalmente
             Vector3 lookTarget = new Vector3(target.x, transform.position.y, target.z);
             transform.LookAt(lookTarget);
 

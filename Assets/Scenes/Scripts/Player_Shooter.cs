@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class Player_Shooter : MonoBehaviour
 {
-    public GameObject projectilePrefab;  // Prefab del proyectil
-    public Transform firePoint;          // Punto de salida del proyectil
-    public Camera cam;                   // Cámara del jugador
+    public GameObject projectilePrefab;  
+    public Transform firePoint;          
+    public Camera cam;                   
 
     void Update()
     {
@@ -16,7 +16,7 @@ public class Player_Shooter : MonoBehaviour
 
     void Shoot()
     {
-        // Instanciar el proyectil con la rotación de la cámara
+        
         Instantiate(projectilePrefab, firePoint.position, cam.transform.rotation);
     }
 }

@@ -158,7 +158,7 @@ MonoBehaviour:
   chaseSpeed: 7
   detectionRange: 20
   attackRange: 10
-  projectilePrefab: {fileID: 0}
+  projectilePrefab: {fileID: 34848324246799954, guid: 96a4f06ceb59f614e968abf25d7ebfd0, type: 3}
   firePoint: {fileID: 0}
   fireRate: 2
 --- !u!114 &-9002341781619710421
