@@ -19,6 +19,10 @@ public class EnemyAI : MonoBehaviour
     private enum State { Patrol, Chase, Attack }
     private State currentState = State.Patrol;
 
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip shootSound;
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -73,6 +77,8 @@ public class EnemyAI : MonoBehaviour
         if (Time.time >= nextFireTime)
         {
             Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
+            if (audioSource != null && shootSound != null)
+                audioSource.PlayOneShot(shootSound);
             nextFireTime = Time.time + 1f / fireRate;
         }
     }

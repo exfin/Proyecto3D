@@ -807,6 +807,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 842475738}
     m_Modifications:
+    - target: {fileID: -9002341781619710421, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 940518533}
+    - target: {fileID: -9002341781619710421, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: explosionSound
+      value: 
+      objectReference: {fileID: 8300000, guid: cfa16117c62143e4c9055eb2c083673f, type: 3}
     - target: {fileID: 903187322083698298, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
       propertyPath: m_Name
       value: Enemy10
@@ -815,6 +823,14 @@ PrefabInstance:
       propertyPath: firePoint
       value: 
       objectReference: {fileID: 825580347}
+    - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: shootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 50238a32333496c46bf4f0eef34ca63c, type: 3}
+    - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 940518533}
     - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 2
@@ -1044,6 +1060,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 842475738}
     m_Modifications:
+    - target: {fileID: -9002341781619710421, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 940518533}
+    - target: {fileID: -9002341781619710421, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: explosionSound
+      value: 
+      objectReference: {fileID: 8300000, guid: cfa16117c62143e4c9055eb2c083673f, type: 3}
     - target: {fileID: 903187322083698298, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
       propertyPath: m_Name
       value: Enemy7
@@ -1052,6 +1076,14 @@ PrefabInstance:
       propertyPath: firePoint
       value: 
       objectReference: {fileID: 722262246}
+    - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: shootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 50238a32333496c46bf4f0eef34ca63c, type: 3}
+    - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 940518533}
     - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 2
@@ -1623,6 +1655,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 842475738}
     m_Modifications:
+    - target: {fileID: -9002341781619710421, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 940518533}
+    - target: {fileID: -9002341781619710421, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: explosionSound
+      value: 
+      objectReference: {fileID: 8300000, guid: cfa16117c62143e4c9055eb2c083673f, type: 3}
     - target: {fileID: 903187322083698298, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
       propertyPath: m_Name
       value: Enemy5
@@ -1631,6 +1671,14 @@ PrefabInstance:
       propertyPath: firePoint
       value: 
       objectReference: {fileID: 443553367}
+    - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: shootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 50238a32333496c46bf4f0eef34ca63c, type: 3}
+    - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 940518533}
     - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 2
@@ -2038,6 +2086,135 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2094353187}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &940518532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 940518534}
+  - component: {fileID: 940518533}
+  m_Layer: 0
+  m_Name: Src
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &940518533
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940518532}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 141
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &940518534
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940518532}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 40.32414, y: 29.73318, z: 51.85888}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &963427956
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2046,6 +2223,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 842475738}
     m_Modifications:
+    - target: {fileID: -9002341781619710421, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 940518533}
+    - target: {fileID: -9002341781619710421, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: explosionSound
+      value: 
+      objectReference: {fileID: 8300000, guid: cfa16117c62143e4c9055eb2c083673f, type: 3}
     - target: {fileID: 903187322083698298, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
       propertyPath: m_Name
       value: Enemy8
@@ -2054,6 +2239,14 @@ PrefabInstance:
       propertyPath: firePoint
       value: 
       objectReference: {fileID: 2075184260}
+    - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: shootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 50238a32333496c46bf4f0eef34ca63c, type: 3}
+    - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 940518533}
     - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 2
@@ -2450,6 +2643,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 842475738}
     m_Modifications:
+    - target: {fileID: -9002341781619710421, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 940518533}
+    - target: {fileID: -9002341781619710421, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: explosionSound
+      value: 
+      objectReference: {fileID: 8300000, guid: cfa16117c62143e4c9055eb2c083673f, type: 3}
     - target: {fileID: 903187322083698298, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
       propertyPath: m_Name
       value: Enemy9
@@ -2458,6 +2659,14 @@ PrefabInstance:
       propertyPath: firePoint
       value: 
       objectReference: {fileID: 1270708074}
+    - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: shootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 50238a32333496c46bf4f0eef34ca63c, type: 3}
+    - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 940518533}
     - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 2
@@ -2641,6 +2850,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 842475738}
     m_Modifications:
+    - target: {fileID: -9002341781619710421, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 940518533}
+    - target: {fileID: -9002341781619710421, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: explosionSound
+      value: 
+      objectReference: {fileID: 8300000, guid: cfa16117c62143e4c9055eb2c083673f, type: 3}
     - target: {fileID: 903187322083698298, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
       propertyPath: m_Name
       value: Enemy6
@@ -2649,6 +2866,14 @@ PrefabInstance:
       propertyPath: firePoint
       value: 
       objectReference: {fileID: 193354316}
+    - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: shootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 50238a32333496c46bf4f0eef34ca63c, type: 3}
+    - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 940518533}
     - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 2
@@ -2875,6 +3100,9 @@ MonoBehaviour:
   projectilePrefab: {fileID: 865870962277771209, guid: fe5f0f465ed85a2439d9405460319c56, type: 3}
   firePoint: {fileID: 1248680060}
   cam: {fileID: 131530723}
+  audioSource: {fileID: 940518533}
+  shootSound: {fileID: 8300000, guid: 18d6a007b013c9d4ebf7f7c44e1e5f06, type: 3}
+  shootCooldown: 1.5
 --- !u!114 &1499827788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3247,6 +3475,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 842475738}
     m_Modifications:
+    - target: {fileID: -9002341781619710421, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 940518533}
+    - target: {fileID: -9002341781619710421, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: explosionSound
+      value: 
+      objectReference: {fileID: 8300000, guid: cfa16117c62143e4c9055eb2c083673f, type: 3}
     - target: {fileID: 903187322083698298, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
       propertyPath: m_Name
       value: Enemy1
@@ -3255,6 +3491,14 @@ PrefabInstance:
       propertyPath: firePoint
       value: 
       objectReference: {fileID: 7838400}
+    - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: shootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 50238a32333496c46bf4f0eef34ca63c, type: 3}
+    - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 940518533}
     - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 2
@@ -3530,6 +3774,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 842475738}
     m_Modifications:
+    - target: {fileID: -9002341781619710421, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 940518533}
+    - target: {fileID: -9002341781619710421, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: explosionSound
+      value: 
+      objectReference: {fileID: 8300000, guid: cfa16117c62143e4c9055eb2c083673f, type: 3}
     - target: {fileID: 903187322083698298, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
       propertyPath: m_Name
       value: Enemy4
@@ -3538,6 +3790,14 @@ PrefabInstance:
       propertyPath: firePoint
       value: 
       objectReference: {fileID: 790156507}
+    - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: shootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 50238a32333496c46bf4f0eef34ca63c, type: 3}
+    - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 940518533}
     - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
       propertyPath: patrolPoints.Array.size
       value: 2
@@ -4046,6 +4306,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 842475738}
     m_Modifications:
+    - target: {fileID: -9002341781619710421, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 940518533}
+    - target: {fileID: -9002341781619710421, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: explosionSound
+      value: 
+      objectReference: {fileID: 8300000, guid: cfa16117c62143e4c9055eb2c083673f, type: 3}
     - target: {fileID: 903187322083698298, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
       propertyPath: m_Name
       value: Enemy2
@@ -4058,6 +4326,14 @@ PrefabInstance:
       propertyPath: firePoint
       value: 
       objectReference: {fileID: 816554109}
+    - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: shootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 50238a32333496c46bf4f0eef34ca63c, type: 3}
+    - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 940518533}
     - target: {fileID: 3561261115071273086, guid: 9301a0011039d7742907dd8a04a37c3b, type: 3}
       propertyPath: projectilePrefab
       value: 
@@ -4134,3 +4410,4 @@ SceneRoots:
   - {fileID: 709361283}
   - {fileID: 909896690}
   - {fileID: 93582935}
+  - {fileID: 940518534}
